@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, Image, Dimensions,} from 'react-native';
+import { StyleSheet, Text, View, Image, Dimensions} from 'react-native';
 import { Images, Profiles } from './App/Themes';
 import { Ionicons } from '@expo/vector-icons';
 export default function App() {
