@@ -46,7 +46,7 @@ export default function App() {
 
           </View>
         </View>
-        <View style={styles.actionBar}>
+        <View style={styles.bottomPanel}>
 
           <View style={styles.smallButtonCircle}>
             <Image source={Images.rewind} 
@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
 
-  actionBar: {
+  bottomPanel: {
     height: 90,
     width: '78%',
     flexDirection: 'row',
